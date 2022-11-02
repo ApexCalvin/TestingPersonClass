@@ -9,9 +9,14 @@ import org.junit.Test;
 public class TestPerson {
     @Test
     public void testDefaultConstructor() {
-        // Given
+        // Given //if default method has no parameters being passed, these are the default values
         String expectedName = "";
         Integer expectedAge = Integer.MAX_VALUE;
+        String eyeColor = "";
+        String hairColor = "";
+        String favColor = "";
+        Integer height = Integer.MAX_VALUE;
+        Integer weight = Integer.MAX_VALUE;
 
         // When
         Person person = new Person();
